@@ -16,7 +16,7 @@ Our app goes beyond simple transactions. Each meal shared comes in biodegradable
 ## 🤩  Functionality and Pages
 Our marketplace leverages the power of SwiftUI for a seamless and dynamic iOS application experience, Vapor as our server-side Swift framework to handle backend operations efficiently, and PostgreSQL for robust, reliable data storage. Another advantage of using PostgreSQL is its scalable nature, allowing us to grow our app easily if need be in the future.
 
-## Architechture
+## 🛠️  Architechture
 Our project aims to follow the MVVM (Model-View-ViewModel) architechture to seamlessly bridge the gap between the client and server sides of the application.
 
 ## 🚀  Project Setup
