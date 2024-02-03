@@ -16,8 +16,15 @@ public func configure(_ app: Application) async throws {
         database: Environment.get("DATABASE_NAME") ?? "vapor_database",
         tls: .prefer(try .init(configuration: .clientDefault)))
     ), as: .psql)
+    
+    app.migrations.add(CreateUsers()) // Add your migration here
+    app.migrations.add(CreateFoodItem()) // Add your second migration here
 
-
+    // Automatically run migrations (You can remove this in production or handle it differently)
+    try app.autoMigrate().wait()
+    
     // register routes
     try routes(app)
+    
+
 }
