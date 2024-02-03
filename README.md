@@ -71,3 +71,7 @@ Content Protocol: Allows UserProfile to be returned in routes directly, supporti
 ## 🖥️  Usage
 After launching the iOS app, you'll be prompted to create a new account or log in. Once authenticated, you can explore the marketplace, manage your account etc.
 
+## Acknowledgements and Application Status
+This application was developed for the 2024 TartanHacks Hackathon at Carnegie Mellon University by Robin Hwang, Amol Mendonca, Naman Kabra, and Satvik Kapoor, all of who are undergraduates at the University of Michigan as of February 2024.
+
+DishDash in currently in development, but we hope to announce an official release in the forseeable future!
