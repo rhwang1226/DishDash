@@ -2,13 +2,22 @@
 Dive into a sustainable marketplace designed for students to connect, share, and explore through food! Join DishDash and savor a greener & happier future.
 First launched at **Carnegie Mellon's** Campus - helping achieve CMU's vision of working towards Goal #2 (to reach zero hunger) and Goal #12 (to ensure sustainable consumption patterns).
 
-## 🛗 Elevator Pitch
+## 🛗 Elevator Pitch and a Formal Introduction
 Imagine a student named Alex, navigating the tightrope of academics and part-time work, often ending the day too exhausted to think about meals. One night, after cooking more than needed, Alex stores the extra food in the fridge, hoping to eat it later. Yet, in the whirlwind of student life, Alex forgets, and the food spoils—wasted. This cycle of waste and regret is all too familiar.
 
 Now let’s consider Jordan, living a few floors away who faces the dilemma of stretching a thin budget or settling for instant noodles again, unaware of the meal that went to waste in Alex's fridge. This isn't just about missed meals; it's about missed opportunities for connection in a community that should be sharing more than just spaces.
 
+That's where our app steps in. Inspired by stories like Alex's and Jordan's, we created a platform that turns excess into access. Our app connects students, transforming forgotten fridge leftovers into nourishing meals for others. It's not just technology; it's a movement towards a campus where no meal is wasted, and no student is left hungry. Together, we're building a community, one shared meal at a time.
+
+In line with Carnegie Mellon University's Sustainable Development Goals, particularly Goal #2 — to reach zero hunger, and Goal #12 — to ensure sustainable consumption and production patterns, our app directly supports CMU's vision. Provost and Honorary Food Drive Chair, Jim Garrett, emphasizes the importance of eradicating hunger and sharing resources right in our backyard. Our platform embodies this mission, making it a vital part of the campus-wide effort, including initiatives like the Campus Race to Zero Waste, to build a more sustainable and connected community.
+
+Our app goes beyond simple transactions. Each meal shared comes in biodegradable packaging, reflecting our commitment to sustainability. And to foster trust, we've implemented a comprehensive review system where users rate their experiences out of 5 stars, ensuring transparency and reliability in every exchange.
+
 ## 🤩  Functionality and Pages
-Our marketplace leverages the power of SwiftUI for a seamless and dynamic iOS application experience, Vapor as our server-side Swift framework to handle backend operations efficiently, and PostgreSQL for robust, reliable data storage.
+Our marketplace leverages the power of SwiftUI for a seamless and dynamic iOS application experience, Vapor as our server-side Swift framework to handle backend operations efficiently, and PostgreSQL for robust, reliable data storage. Another advantage of using PostgreSQL is its scalable nature, allowing us to grow our app easily if need be in the future.
+
+## Architechture
+Our project aims to follow the MVVM (Model-View-ViewModel) architechture to seamlessly bridge the gap between the client and server sides of the application.
 
 ## 🚀  Project Setup
 
