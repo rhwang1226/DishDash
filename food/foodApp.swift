@@ -8,7 +8,7 @@ import SwiftUI
 struct foodApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthWithGradientView()
         }
     }
 }
