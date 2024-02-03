@@ -12,7 +12,7 @@ struct SearchAndFilterView: View {
             //                Search
             HStack {
                 Image(uiImage: #imageLiteral(resourceName: "search"))
-                TextField("Search for recipes", text: $search)
+                TextField("Search for chefs", text: $search)
                 
             }
             .padding()

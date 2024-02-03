@@ -39,7 +39,7 @@ struct HomeView: View {
                 
                 SectionTitleView(title: "Recommended")
                 
-                RecommendedRecipeCardView(image: UIImage(named: "reco_1") ?? UIImage(), title: "Satvik's Cupcakes", category: "2260 Bursley Hall", calories: "4 reviews!", timeRequired: "2 mins away", servings: "Ready Now!")
+                RecommendedRecipeCardView(image: UIImage(named: "reco_1") ?? UIImage(), title: "Satvik's Cupcake", category: "2260 Bursley Hall", calories: "4 reviews!", timeRequired: "2 mins away", servings: "Ready Now!")
                 RecommendedRecipeCardView(image: UIImage(named: "reco_2") ?? UIImage(), title: "Naman's Salmon", category: "1106 Cross House", calories: "2 reviews!", timeRequired: "5 min away", servings: "Ready in 10 mins!")
                 RecommendedRecipeCardView(image: UIImage(named: "reco_3") ?? UIImage(), title: "Robin's Chicken Buns", category: "Room 2250, Duderstadt Center", calories: "7 reviews!", timeRequired: "0 mins away", servings: "Ready in 4 mins!")
             }
@@ -62,6 +62,7 @@ struct MapView: View {
                 .navigationTitle("Map Location")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
+                    
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button("Dismiss") {
                             showMap = false // Dismiss the map view

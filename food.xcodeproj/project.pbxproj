@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0864DFEF2B6DF73200AEE908 /* RadixColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864DFEE2B6DF73200AEE908 /* RadixColors.swift */; };
 		0864DFF12B6DF7E800AEE908 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864DFF02B6DF7E800AEE908 /* LogInView.swift */; };
+		0864DFF32B6E073D00AEE908 /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864DFF22B6E073D00AEE908 /* CreateProfile.swift */; };
+		0864DFF52B6E2B2900AEE908 /* Create2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0864DFF42B6E2B2900AEE908 /* Create2.swift */; };
 		8821892925BEC29900820A7E /* foodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821892825BEC29900820A7E /* foodApp.swift */; };
 		8821892B25BEC29900820A7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8821892A25BEC29900820A7E /* ContentView.swift */; };
 		8821892D25BEC29B00820A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8821892C25BEC29B00820A7E /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 /* Begin PBXFileReference section */
 		0864DFEE2B6DF73200AEE908 /* RadixColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixColors.swift; sourceTree = "<group>"; };
 		0864DFF02B6DF7E800AEE908 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		0864DFF22B6E073D00AEE908 /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		0864DFF42B6E2B2900AEE908 /* Create2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create2.swift; sourceTree = "<group>"; };
 		8821892525BEC29900820A7E /* food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8821892825BEC29900820A7E /* foodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodApp.swift; sourceTree = "<group>"; };
 		8821892A25BEC29900820A7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -164,8 +168,10 @@
 				8821895725BEC82400820A7E /* HomeNavBarView.swift */,
 				8821896D25BEFE3C00820A7E /* SearchAndFilterView.swift */,
 				0864DFF02B6DF7E800AEE908 /* LogInView.swift */,
+				0864DFF22B6E073D00AEE908 /* CreateProfile.swift */,
 				8821897225BF073800820A7E /* FreshRecipesView.swift */,
 				0864DFEE2B6DF73200AEE908 /* RadixColors.swift */,
+				0864DFF42B6E2B2900AEE908 /* Create2.swift */,
 				8821897725BF257E00820A7E /* SectionTitleView.swift */,
 				8821897C25BF2D7600820A7E /* RecommendedRecipeCardView.swift */,
 				8821898125BF2DE800820A7E /* HomeView.swift */,
@@ -327,7 +333,9 @@
 				8821896E25BEFE3C00820A7E /* SearchAndFilterView.swift in Sources */,
 				8821897325BF073800820A7E /* FreshRecipesView.swift in Sources */,
 				8821898225BF2DE800820A7E /* HomeView.swift in Sources */,
+				0864DFF32B6E073D00AEE908 /* CreateProfile.swift in Sources */,
 				8821892925BEC29900820A7E /* foodApp.swift in Sources */,
+				0864DFF52B6E2B2900AEE908 /* Create2.swift in Sources */,
 				8821897825BF257E00820A7E /* SectionTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,7 +497,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"food/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = food/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +518,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"food/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = food/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

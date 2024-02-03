@@ -1,4 +1,6 @@
 import SwiftUI
+import MapKit
+
 
 struct RecommendedRecipeCardView: View {
     let image: UIImage
@@ -20,12 +22,14 @@ struct RecommendedRecipeCardView: View {
             VStack(alignment: .leading, spacing: 4) {
                 HStack {
                     Text(category)
-                        .font(.caption2)
-                        .foregroundColor(Color(#colorLiteral(red: 0, green: 0.6272217631, blue: 0.7377799153, alpha: 1)))
+                        .font(.caption)
+                        .foregroundColor(.red)
+                        .bold()
                     Spacer()
 
                     Image(uiImage: #imageLiteral(resourceName: "like")) // Ensure this is replaced with your image
                 }
+                
                 Text(title)
                     .fontWeight(.medium)
 
@@ -46,13 +50,14 @@ struct RecommendedRecipeCardView: View {
                     Image(uiImage: #imageLiteral(resourceName: "time")) // Ensure this is replaced with your image
                     Text(timeRequired)
                         .font(.caption2)
-                        .foregroundColor(Color("GrayColor"))
+                        .foregroundColor(.black)
+                    
 
                     Image(uiImage: #imageLiteral(resourceName: "serving")) // Ensure this is replaced with your image
                         .padding(.leading)
                     Text(servings)
                         .font(.caption2)
-                        .foregroundColor(Color("GrayColor"))
+                        .foregroundColor(.black)
 
                 }
             }
