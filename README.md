@@ -32,6 +32,28 @@ vapor run
 ### Open the SwiftUI project
 Open the .xcodeproj file in Xcode. Select a target device and run the project.
 
+## 📈  Database Design
+
+### `UserProfile` Model
+The `UserProfile` entity is central to our database schema and is designed to store comprehensive user information. Below is a breakdown of its fields and their significance:
+
+- **ID (`id`)**: A unique identifier for each user profile, generated automatically. This UUID ensures each user has a distinct reference, enhancing data management and security.
+  
+- **First Name (`first_name`)**: The user's given name. This field allows for personalization across the platform.
+  
+- **Last Name (`last_name`)**: The user's family name. Together with the first name, it helps in identifying users and personalizing user experiences.
+  
+- **Tartan ID (`tartan_id`)**: A unique identifier provided to users, possibly reflecting membership or identity within the community.
+  
+- **Date of Birth (`dob`)**: The user's date of birth. This information can be used for age verification and birthday acknowledgments.
+  
+- **Gender (`gender`)**: The user's gender identity. Our platform is inclusive, recognizing the importance of respecting user identities.
+
+### Implementation Details
+Fluent: Vapor's ORM for working with databases. It allows for the easy definition of models and their relationships, as well as query building.
+
+Content Protocol: Allows UserProfile to be returned in routes directly, supporting JSON data formats seamlessly.
+
 ## 🖥️  Usage
 After launching the iOS app, you'll be prompted to create a new account or log in. Once authenticated, you can explore the marketplace, manage your account etc.
 
