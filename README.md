@@ -2,6 +2,11 @@
 Dive into a sustainable marketplace designed for students to connect, share, and explore through food! Join DishDash and savor a greener & happier future.
 First launched at **Carnegie Mellon's** Campus - helping achieve CMU's vision of working towards Goal #2 (to reach zero hunger) and Goal #12 (to ensure sustainable consumption patterns).
 
+## 🛗 Elevator Pitch
+Imagine a student named Alex, navigating the tightrope of academics and part-time work, often ending the day too exhausted to think about meals. One night, after cooking more than needed, Alex stores the extra food in the fridge, hoping to eat it later. Yet, in the whirlwind of student life, Alex forgets, and the food spoils—wasted. This cycle of waste and regret is all too familiar.
+
+Now let’s consider Jordan, living a few floors away who faces the dilemma of stretching a thin budget or settling for instant noodles again, unaware of the meal that went to waste in Alex's fridge. This isn't just about missed meals; it's about missed opportunities for connection in a community that should be sharing more than just spaces.
+
 ## 🤩  Functionality and Pages
 Our marketplace leverages the power of SwiftUI for a seamless and dynamic iOS application experience, Vapor as our server-side Swift framework to handle backend operations efficiently, and PostgreSQL for robust, reliable data storage.
 
